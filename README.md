@@ -24,6 +24,6 @@ Web Cache Recon is a command-line tool that extracts sensitive information from 
 ### Steps to install
  Clone the repository:
    ```bash
-   git clone https://github.com/y/web-cache-recon.git
+   git clone https://github.com/Hrishabh57Dev/Web-Cache-Recon.git
    cd web-cache-recon
    pip install -r requirements.txt
