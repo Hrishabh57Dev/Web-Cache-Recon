@@ -15,15 +15,17 @@ Web Cache Recon is a command-line tool that extracts sensitive information from 
 - **📝 Digital Forensics** – Retrieve historical data from deleted or modified pages.
 - **🌍 Threat Intelligence** – Monitor cached versions of websites for potential data leaks.
 
-## Installation
-
-### Prerequisites
-- Python 3.x
-- Required libraries: `requests`, `beautifulsoup4`, `argparse`, `re`
-
-### Steps to install
+## Steps to install
  Clone the repository:
    ```bash
    git clone https://github.com/Hrishabh57Dev/Web-Cache-Recon.git
    cd web-cache-recon
    pip install -r requirements.txt
+```
+
+
+## External Tools Required
+- **Katana:** Used for efficient crawling of web pages.
+  - Install via: `go install github.com/projectdiscovery/katana/cmd/katana@latest`
+  - Ensure it is in your system's PATH.
+
